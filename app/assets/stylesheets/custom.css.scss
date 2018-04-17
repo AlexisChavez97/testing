@@ -1,2 +1,116 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
+#logo {
+  float: left;
+  font-size: 1.7em;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.jumbotron h1 {
+  font-size: 75px;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('cat.jpg');
+  background-size: cover;
+  height: 550px;
+}
+
+.btn-xlarge {
+  font-size: 1.7em;
+  background-color: #221611 !important;
+  border-color: #221611 !important;
+}
+
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.row {
+  margin-top: 15px;
+}
+
+.description {
+  margin-top: 0px;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body {
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
+
+#article_title.form-control {
+  width: 800px !important;
+}
+
+#article_description.form-control {
+  width: 800px !important;
+}
+ label.col-sm-2 {
+   font-weight: bold;
+}
+
+#error_explanation {
+  color: red;
+  ul {
+    color: red;
+    margin: 0 0 30px 0;
+  }
+}
+
+.form-control {
+    color: rgba(226, 53, 30, 0.911);
+}
+
+td a {
+  color: black;
+  font-weight: bold;
+}
+
+th {
+  font-size: 24px;
+}
+
+div.card {
+  background-color: rgba(205, 215, 222, 0.575);
+}

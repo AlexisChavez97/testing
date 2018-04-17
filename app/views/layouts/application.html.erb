@@ -9,7 +9,11 @@
   </head>
 
   <body>
-    <%= render 'shared/messages'%>
-    <%= yield %>
+    <%= render 'shared/navigation' %>
+    <%= render 'shared/messages' %>
+    <div class="container">
+      <%= yield %>
+    </div>
+    <%= render 'shared/footer' %>
   </body>
 </html>
