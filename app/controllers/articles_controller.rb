@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class ArticlesController < ApplicationController
   def index
     @articles = Article.all
@@ -40,7 +42,6 @@ class ArticlesController < ApplicationController
     @article.destroy
     flash[:danger] = 'Article deleted'
     redirect_to articles_path
-
   end
 
   private
